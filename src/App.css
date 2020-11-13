@@ -1,0 +1,77 @@
+@import '~antd/dist/antd.dark.css';
+
+.backtop {
+  padding: 0px 10px ;
+  background-color: #45BCF9;
+  color: #ffffff;
+  opacity: .8;
+  text-align: center;
+}
+.backtop:hover {
+  opacity: 1;
+}
+.backtop i {
+  font-size: 20px;
+}
+
+.ant-select {
+  margin: 0 0 10px 8px;
+}
+
+.ant-card-extra {
+  font-size: 12px;
+  vertical-align: middle;
+  /* float: left; */
+}
+
+.ant-card-body {
+  /* padding-top: 0;
+  padding-bottom: 0; */
+  padding: 0 0 0 0px;
+}
+.ant-card-cover {
+  display: inline-flex;
+}
+
+.ant-card-extra-override {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
