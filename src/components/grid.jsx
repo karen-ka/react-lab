@@ -4,7 +4,7 @@ import React from 'react';
 import MyRadio from './radio.js';
 import pkmn from '../data.js'
 import { Layout } from 'antd';
-const { Header, Footer, Sider, Content } = Layout;
+const { Content } = Layout;
 
 const gridStyle = {
     align: 'center',
